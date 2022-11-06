@@ -6,7 +6,7 @@ import { styles } from './styles';
 function Header() {
   return (
     <View style={styles.container_header}>
-      <Text>HEADER</Text>
+      <Text style={{ color: '#FFF', fontSize: 14 }}>HEADER</Text>
     </View>
   );
 }
